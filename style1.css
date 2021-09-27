@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.img-container {
+  height: 100vh;
+  position: relative;
+}
+
+.img-container::before {
+  content: "";
+  background-image: url(/assets/image1.jpg);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.7;
+  background-attachment: fixed;
+}
+
+.img-container .text-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+  background-color: #595959;
+}
+
+.img-container .text-container > p {
+  font-size: 27px;
+  line-height: 1;
+  letter-spacing: 8px;
+  color: white;
+}
+
+.section-one-container {
+  background-color: white;
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.section-one-container > h1 {
+  color: black;
+  display: block;
+  font-size: 1.5em;
+  line-height: 1.8em;
+}
+
+.section-one-container > p {
+  color: black;
+  line-height: 1.8em;
+}
+
+.section-two-container {
+  background-image: url(/assets/image2.jpg);
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  opacity: 0.7;
+}
+.section-two-container .text-two-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.section-two-text-container {
+  background-color: #282e34;
+  text-align: center;
+  padding: 30px;
+}
+
+.section-two-text-container > h1 {
+  color: white;
+  line-height: 2;
+}
+
+.section-two-text-container > p {
+  color: white;
+  line-height: 2;
+}
+
+.section-three-container {
+  background-image: url(/assets/image3.jpg);
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  opacity: 0.7;
+}
+.section-three-container .text-three-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.section-three-text-container {
+  background-color: #282e34;
+  text-align: center;
+  padding: 30px;
+}
+
+.section-three-text-container > h1 {
+  color: white;
+  line-height: 2;
+}
+
+.section-three-text-container > p {
+  color: white;
+  line-height: 2;
+}

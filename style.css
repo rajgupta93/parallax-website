@@ -10,7 +10,7 @@
 
 .img-container::before {
   content: "";
-  background-image: url(/assets/image1.jpg);
+  background-image: url(image1.jpg);
   position: absolute;
   top: 0;
   right: 0;
@@ -57,7 +57,7 @@
 }
 
 .section-two-container {
-  background-image: url(/assets/image2.jpg);
+  background-image: url(image2.jpg);
   height: 400px;
   background-position: center;
   background-size: cover;
@@ -89,7 +89,7 @@
 }
 
 .section-three-container {
-  background-image: url(/assets/image3.jpg);
+  background-image: url(image3.jpg);
   height: 400px;
   background-position: center;
   background-size: cover;
